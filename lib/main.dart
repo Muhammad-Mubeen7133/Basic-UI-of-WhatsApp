@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_book/Cloning%20UI/cloning_ui_main.dart';
 import 'package:notes_book/splach_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: CloningUiMain(),
     );
   }
 }
